@@ -17,7 +17,7 @@
         <li><a href="#_">民眾信箱</a></li>
       </ul>
       <div class="md:w-[120px] flex justify-center lg:hidden">
-        <i class="navBtn fa-solid fa-list fa-2xl !text-election-second"></i>
+        <i class="navBtn fa-solid fa-list fa-2xl !text-election-second cursor-pointer"></i>
       </div>
       <div>
         <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,9 +44,9 @@
       </div>
     </nav>
     <!-- 下拉式選單 -->
-    <ul class="header-collapse">
+    <ul class="header-collapse hidden">
       <li class="self-start border-bottom w-full py-2 pl-3">
-        <i class="navBtn fa-solid fa-xmark fa-2xl !text-election-second"></i>
+        <i class="navBtn fa-solid fa-xmark fa-2xl !text-election-second cursor-pointer"></i>
       </li>
       <li class="border-bottom flex justify-center font-normal py-3 w-full"><a href="#_">候選人主張</a></li>
       <li class="border-bottom flex justify-center font-normal py-3 w-full"><a href="#_">政策議題</a></li>
@@ -498,7 +498,7 @@
               </div>
             </div>
           </div>
-          <div class="secondItem hidden relative">
+          <div class="secondItem hidden">
             <div class=" fixed w-full h-full top-0 left-0 bg-black/50 z-20 flex  justify-center items-center">
               <div class="issueItem max-w-[1035px] grid grid-cols-12 gap-4.5 bg-white absolute">
                 <div class="col-start-1 col-end-6">
@@ -544,7 +544,7 @@
               </div>
             </div>
           </div>
-          <div class="thirdItem hidden relative">
+          <div class="thirdItem hidden">
             <div class="fixed w-full h-full top-0 left-0 bg-black/50 z-20 flex  justify-center items-center">
               <div class="issueItem max-w-[1035px] grid grid-cols-12 gap-4.5 bg-white absolute">
                 <div class="col-start-1 col-end-6">
@@ -594,10 +594,9 @@
         </div>
     </div>
   </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" defer></script>
-  <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
   <script src="https://kit.fontawesome.com/dbac137724.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./public/js/all.js"></script>

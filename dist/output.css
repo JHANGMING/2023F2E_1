@@ -1639,20 +1639,12 @@ a:hover{
     grid-column-end: 10;
   }
 
-  .lg\:col-end-12{
-    grid-column-end: 12;
-  }
-
   .lg\:col-end-13{
     grid-column-end: 13;
   }
 
   .lg\:col-end-6{
     grid-column-end: 6;
-  }
-
-  .lg\:col-end-1{
-    grid-column-end: 1;
   }
 
   .lg\:mb-3{
