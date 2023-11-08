@@ -10,6 +10,7 @@ function init(){
   politicsbackgroundColor()
   catPic()
 }
+
 //banner區塊
 function bannerSwiper(){
   const swiper = new Swiper("#banner", {
@@ -24,12 +25,7 @@ function bannerSwiper(){
 
 //政策區塊gsap 992px以上
 function politicsGsap(){
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true, 
-    smoothTouch: 0.1 
-  });
+  gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.matchMedia({
     "(min-width: 992px)": function() {
       gsap
@@ -90,16 +86,15 @@ function issueSection(){
     e.preventDefault();
     itemName=e.target.dataset.item
     let issueItem=document.querySelector(`.${itemName}`)
+    console.log(issueItem)
     issueItem.classList.remove("hidden")
     let item=issueItem.firstElementChild.firstElementChild
-    item.style.top = `${(window.innerHeight - item.clientHeight) / 2 + window.pageYOffset}px`;
+    // item.style.top = `${(window.innerHeight - item.clientHeight) / 2 + window.pageYOffset}px`;
     item.style.left = `${(window.innerWidth - item.clientWidth) / 2}px`;
-    document.body.style.overflow = "hidden";
   })
   cancels.forEach((cancel)=>{
     cancel.addEventListener("click",(e)=>{
       document.querySelector(`.${itemName}`).classList.add("hidden");
-      document.body.style.overflow = "auto"; 
     })
   })
 }
@@ -116,6 +111,7 @@ function headerCollapse(){
 
 //svg貓
 function catPic(){
+  gsap.registerPlugin(ScrollTrigger);
   const logoLegs = document.querySelectorAll("#s0_logo_leg");
   logoLegs.forEach((logoLeg, index) => {
     gsap.fromTo(
