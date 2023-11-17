@@ -5,8 +5,8 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        // DEFAULT: '64px',
-        // md: '12px',
+        DEFAULT: "24px",
+        md: "24px",
       },
     },
     fontSize: {
@@ -20,6 +20,12 @@ module.exports = {
         "16px",
         {
           lineHeight: "24px",
+        },
+      ],
+      s: [
+        "12px",
+        {
+          lineHeight: "18px",
         },
       ],
       sm: [
@@ -46,6 +52,12 @@ module.exports = {
           lineHeight: "48px",
         },
       ],
+      xxl: [
+        "40px",
+        {
+          lineHeight: "48px",
+        },
+      ],
       "2xl": [
         "48px",
         {
@@ -66,8 +78,11 @@ module.exports = {
       1.5: "12px",
       1.75: "14px",
       2: "16px",
+      2.25: "18px",
       2.5: "20px",
+      2.75: "22px",
       3: "24px",
+      3.25: "26px",
       3.5: "28px",
       3.75: "30px",
       4: "32px",
@@ -79,12 +94,21 @@ module.exports = {
       8: "64px",
       9: "72px",
       9.5: "76px",
+      10: "80px",
       11: "88px",
       12: "96px",
+      12.25: "98px",
+      12.875: "103px",
+      13.75: "110px",
       14.5: "116px",
+      14.75: "118px",
       15: "120px",
       16.5: "132px",
+      19.75: "158px",
       22.5: "180px",
+      28: "224px",
+      28.75: "230px",
+      30: "240px",
       37.5: "300px",
       41.5: "332px",
     },
@@ -160,18 +184,22 @@ module.exports = {
     screens: {
       md: "768px",
       lg: "992px",
+      xl: "1536px",
     },
   },
   plugins: [
     function ({ addComponents }) {
       addComponents({
         ".container": {
-          maxWidth: "327px", // 100%
+          maxWidth: "100%",
 
           "@screen md": {
             maxWidth: "768px",
           },
           "@screen lg": {
+            maxWidth: "1384px",
+          },
+          "@screen xl": {
             maxWidth: "1384px",
           },
         },
