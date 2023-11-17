@@ -1,12 +1,1437 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./dist/output.css">
-  <title>2023F2E_1</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>2023F2E_1</title>
+  </head>
+  <body class="!overflow-x-hidden">
+    <!-- 最新活動 -->
+    <section
+      class="bg-election h-[467px] lg:h-[703px] overflow-hidden"
+      id="yarnballSlidingEnd"
+    >
+      <div class="py-5 lg:pt-8 lg:pb-[123px]">
+        <div
+          class="text-election-sixth text-l lg:text-2xl font-medium text-center mb-4 lg:mb-5"
+        >
+          最新活動
+        </div>
+        <div
+          class="flex gap-x-6 animate-flipcardMarquee hover:animationPause w-full"
+        >
+          <!-- marquee conatainer -->
+          <div class="flex gap-x-6 pr-6 w-[2232px]">
+            <!-- 1st card-->
+            <div class="relative flipContainer">
+              <!-- 1st card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic01.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      參與台北寵物論壇<br />
+                      爭取貓咪友善環境
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 1st card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 26</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                        VIP 休憩空間。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 2nd card-->
+            <div class="relative flipContainer">
+              <!-- 2nd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic02.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      掃街模式開啟<br />
+                      帶著你的貓耳，來和我一起走！
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 2nd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 24</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="botton"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="rel ative flipContainer">
+              <!-- 3rd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic03.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      收容所模特兒大比拼
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 3rd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 20</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- loop start -->
+            <!-- 1st card-->
+            <div class="relative flipContainer">
+              <!-- 1st card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic01.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      參與台北寵物論壇<br />
+                      爭取貓咪友善環境
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 1st card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 26</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                        VIP 休憩空間。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 2nd card-->
+            <div class="relative flipContainer">
+              <!-- 2nd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic02.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      掃街模式開啟<br />
+                      帶著你的貓耳，來和我一起走！
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 2nd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 24</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="botton"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="rel ative flipContainer">
+              <!-- 3rd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic03.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      收容所模特兒大比拼
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 3rd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 20</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- loop end -->
+            <!-- loop start -->
+            <!-- 1st card-->
+            <div class="relative flipContainer">
+              <!-- 1st card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic01.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      參與台北寵物論壇<br />
+                      爭取貓咪友善環境
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 1st card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 26</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                        VIP 休憩空間。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 2nd card-->
+            <div class="relative flipContainer">
+              <!-- 2nd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic02.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      掃街模式開啟<br />
+                      帶著你的貓耳，來和我一起走！
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 2nd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 24</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="botton"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="rel ative flipContainer">
+              <!-- 3rd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic03.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      收容所模特兒大比拼
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 3rd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 20</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- loop end -->
+            <!-- loop start -->
+            <!-- 1st card-->
+            <div class="relative flipContainer">
+              <!-- 1st card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic01.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      參與台北寵物論壇<br />
+                      爭取貓咪友善環境
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 1st card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 26</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                        VIP 休憩空間。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-second text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-second w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 2nd card-->
+            <div class="relative flipContainer">
+              <!-- 2nd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic02.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      掃街模式開啟<br />
+                      帶著你的貓耳，來和我一起走！
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 2nd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 24</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fourth w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="botton"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fourth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="rel ative flipContainer">
+              <!-- 3rd card front -->
+              <div class="flipcard front">
+                <ul
+                  class="bg-white absolute flex flex-col text-center w-[192px] lg:w-[316px] -mt-1"
+                >
+                  <li><img src="public/img/s6_cardPic03.png" alt="" /></li>
+                  <ol
+                    class="flex flex-col justify-between h-[133px] lg:h-[92px]"
+                  >
+                    <li class="text-sm lg:text-m mt-1 mb-1.5">
+                      收容所模特兒大比拼
+                    </li>
+                    <li class="lg:hidden mb-2">
+                      <button
+                        class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      >
+                        活動詳情
+                      </button>
+                    </li>
+                  </ol>
+                </ul>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px] ml-1"
+                ></div>
+              </div>
+              <!-- 3rd card back -->
+              <div class="absolute flipcard back top-0">
+                <div
+                  class="bg-white absolute flex flex-col w-[192px] h-[325px] lg:h-[408px] lg:w-[316px] -mt-1 ml-1"
+                >
+                  <ul
+                    class="flex flex-col justify-between gap-y-4.5 text-xs lg:text-base lg:mt-6 lg:pb-3 lg:mx-4.5 mx-2.5 mt-3.5 pb-8"
+                  >
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動日期
+                      </li>
+                      <li>2023 / 12 / 20</li>
+                    </ol>
+                    <ol class="flex flex-col lg:gap-y-0.5">
+                      <li class="flex items-center font-bold">
+                        <img
+                          src="public/img/label.svg"
+                          class="inline-block mr-[1px]"
+                          alt=""
+                        />活動內容
+                      </li>
+                      <li>
+                        今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！
+                      </li>
+                    </ol>
+                  </ul>
+                  <div class="mb-3 m-auto hidden lg:block">
+                    <button
+                      class="bg-election-fifth text-white w-[160px] h-[34px] font-bold text-xs rounded-[50px]"
+                      type="button"
+                    >
+                      活動紀錄
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="bg-election-fifth w-[192px] lg:w-[316px] h-[325px] lg:h-[408px]"
+                ></div>
+              </div>
+            </div>
+            <!-- loop end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 小額捐款 -->
+    <section
+      class="bg-election-fourth text-center bg-[url('/public/img/s7_bg.svg')] border-y border-election-sixth backdrop-blur-sm"
+      id="catSlidingEnd"
+    >
+      <div class="container py-5 lg:pt-8 lg:pb-12 md:px-3 lg:px-0">
+        <!-- cat & yarnball -->
+        <ul class="hidden relative lg:block">
+          <li
+            class="absolute -top-[94px] [left-[900px]] right-[100px] overflow-x-hidden"
+            id="yarnballSliding"
+          >
+            <img src="public/img/dec_cat02.svg" alt="" />
+          </li>
+          <li class="absolute right-0" id="yarnballSlidingStart">
+            <img src="public/img/dec_cat03.svg" alt="" />
+          </li>
+        </ul>
+        <!-- title -->
+        <div
+          class="text-election-sixth text-l lg:text-2xl font-medium pb-3 lg:pb-6"
+        >
+          小額捐款
+        </div>
+        <div class="text-black text-xs lg:text-base">目前小額贊助總金額</div>
+        <div
+          class="text-election-second text-l lg:text-2xl font-bold pb-3 lg:pb-4.5"
+        >
+          NTD$987,655,873
+        </div>
+        <!-- card container -->
+        <div
+          class="bg-white flex flex-col md:flex-row flex-wrap border border-election-sixth"
+        >
+          <!-- 1st card -->
+          <ul
+            class="flex lg:flex-col lg:w-1/4 md:w-1/2 justify-between md:justify-evenly lg:justify-between lg:h-[346px] md:border-b md:border-r lg:border-b-0 lg:border-r-0 border-election-sixth"
+          >
+            <ol
+              class="flex flex-col justify-center w-[157px] lg:w-full pl-3 md:pl-0 h-[112px] lg:h-full"
+            >
+              <li class="text-election-first text-xs lg:text-base font-bold">
+                喵星人之友
+              </li>
+              <li class="text-election-second text-l lg:text-2xl font-bold">
+                NTD$600
+              </li>
+              <li class="text-[#999999] text-xs lg:text-base mt-1 lg:mt-3">
+                已有 9957 人贊助
+              </li>
+            </ol>
+            <li
+              class="flex md:justify-center pr-[54px] md:pr-0 items-end md:w-[129px] lg:w-auto"
+            >
+              <img
+                src="public/img/s7_plan1.svg"
+                class="h-[60px] lg:h-15"
+                alt=""
+              />
+            </li>
+          </ul>
+          <!-- 2nd card -->
+          <ul
+            class="flex lg:flex-col md:w-1/2 lg:w-1/4 justify-between md:justify-evenly lg:justify-between border-y md:border-t-0 lg:border-b-0 lg:border-x border-election-sixth lg:h-[346px]"
+          >
+            <ol
+              class="flex flex-col justify-center w-[157px] lg:w-full pl-3 md:pl-0 h-[112px] lg:h-full"
+            >
+              <li class="text-election-first text-xs lg:text-base font-bold">
+                喵星人大使
+              </li>
+              <li class="text-election-second text-l lg:text-2xl font-bold">
+                NTD$6,000
+              </li>
+              <li class="text-[#999999] text-xs lg:text-base mt-1 lg:mt-3">
+                已有 2000 人贊助
+              </li>
+            </ol>
+            <li
+              class="flex md:justify-center pr-4 md:pr-0 items-end md:w-[129px] lg:w-auto"
+            >
+              <img
+                src="public/img/s7_plan2.svg"
+                class="h-[60px] lg:h-15"
+                alt=""
+              />
+            </li>
+          </ul>
+          <!-- 3rd card -->
+          <ul
+            class="flex lg:flex-col lg:w-1/4 md:w-1/2 justify-between md:justify-evenly lg:justify-between lg:h-[346px] border-b md:border-b-0 md:border-r border-election-sixth"
+          >
+            <ol
+              class="flex flex-col justify-center w-[157px] lg:w-full pl-3 md:pl-0 h-[112px] lg:h-full"
+            >
+              <li class="text-election-first text-xs lg:text-base font-bold">
+                喵星傳奇
+              </li>
+              <li class="text-election-second text-l lg:text-2xl font-bold">
+                NTD$60,000
+              </li>
+              <li class="text-[#999999] text-xs lg:text-base mt-1 lg:mt-3">
+                已有 99 人贊助
+              </li>
+            </ol>
+            <li
+              class="flex md:justify-center pr-1.5 md:pr-0 items-end md:w-[129px] lg:w-auto"
+            >
+              <img
+                src="public/img/s7_plan3.svg"
+                class="h-[60px] lg:h-15"
+                alt=""
+              />
+            </li>
+          </ul>
+          <!-- 4th card -->
+          <ul
+            class="flex lg:flex-col lg:w-1/4 md:w-1/2 justify-between md:justify-evenly lg:justify-between lg:h-[346px]"
+          >
+            <ol
+              class="flex flex-col justify-center w-[157px] lg:w-full pl-3 md:pl-0 h-[112px] lg:h-full"
+            >
+              <li class="text-election-first text-xs lg:text-base font-bold">
+                也可以自己來
+              </li>
+              <li class="text-election-second text-l lg:text-2xl font-bold">
+                NTD$ 自訂
+              </li>
+              <li class="text-[#999999] text-xs lg:text-base mt-1 lg:mt-3">
+                已有 20 人贊助
+              </li>
+            </ol>
+            <li
+              class="flex md:justify-center pr-[54px] md:pr-0 items-end md:w-[129px] lg:w-auto"
+            >
+              <img
+                src="public/img/s7_plan4.svg"
+                class="h-[60px] lg:h-15"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="text-black text-xs lg:text-base pt-3 lg:pt-4.5 pb-1">
+          幫助我們實現更好的台灣
+        </div>
+        <button
+          class="bg-election-second w-full text-[20px] font-bold lg:text-xl lg:w-1/3 rounded-[50px] text-white h-[62px] lg:h-12"
+          id="donateBtn"
+        >
+          捐款 GO！
+        </button>
+        <!-- 點擊按鈕彈出式視窗 -->
+        <dialog
+          class="border border-black px-2 py-4 md:px-4 w-[327px] h-[276px] md:w-[676px] md:h-[328px] overflow-hidden"
+          id="donationDialog"
+        >
+          <ul class="grid gap-y-2 text-left">
+            <li class="flex justify-between pr-1">
+              <div class="flex items-center gap-x-1">
+                <div class="h-[20px] md:h-[26px]">
+                  <img src="public/img/label.svg" class="h-full" alt="" />
+                </div>
+                <p class="text-base md::text-l">競選專戶</p>
+              </div>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                id="closeDialog"
+                class="cursor-pointer"
+              >
+                <path
+                  d="M20 1.32073L18.6792 0L10 8.67915L1.32085 0L0 1.32073L8.67921 9.99994L0 18.6791L1.32085 19.9999L10 11.3207L18.6792 19.9999L20 18.6791L11.3208 9.99994L20 1.32073Z"
+                  fill="black"
+                  fill-opacity="0.75"
+                />
+              </svg>
+            </li>
+            <ol class="grid gap-y-1 text-xs md:text-base">
+              <li class="flex">
+                <span class="font-bold mr-1">戶名</span>
+                <p>
+                  113 年立法委員擬參選人喵立翰<br />
+                  政治獻金專戶
+                </p>
+              </li>
+              <li><span class="font-bold mr-1">銀行</span>魚乾金融 055</li>
+              <li><span class="font-bold mr-1">分行</span>罐罐分行 999</li>
+              <li><span class="font-bold mr-1">帳號</span>0000-1111-222322</li>
+            </ol>
+            <li class="w-[122px] h-[34px] md:h-6 m-auto mt-1">
+              <button
+                class="bg-election-second text-white text-xs md:text-base font-bold rounded-[50px] w-full h-full"
+                type="button"
+                id="closeDialog"
+              >
+                確認
+              </button>
+            </li>
+          </ul>
+        </dialog>
+      </div>
+    </section>
+    <!-- cat sliding -->
+    <ul class="container relative" id="catSliding">
+      <li class="hidden lg:block absolute lg:-top-6 z-10">
+        <img src="public/img/dec_cat04.svg" alt="" />
+      </li>
+    </ul>
+    <!-- 意見回饋 -->
+    <section
+      class="bg-election py-5 lg:py-[128.5px] md:px-3 lg:px-0"
+      id="catSlidingStart"
+    >
+      <!-- container -->
+      <div
+        class="container grid grid-cols-4 lg:grid-cols-12 gap-x-2 md:gap-x-4 border-0 lg:border border-election-sixth"
+      >
+        <!-- image -->
+        <div class="bg-election-fifth hidden lg:grid lg:col-span-4 items-end">
+          <img src="public/img/s8_boxcat.png" class="w-full" alt="" />
+        </div>
+        <!-- input conatainer -->
+        <ul
+          class="grid col-span-full lg:col-span-6 lg:col-start-6 grid-cols-4 lg:grid-cols-6 gap-x-2 lg:gap-x-4 gap-y-2 lg:my-4.5"
+          id="inputContainer"
+        >
+          <!-- section title -->
+          <ol class="grid col-span-full mb-1 gap-y-2 lg:gap-y-1">
+            <li
+              class="text-l lg:text-2xl font-medium md:text-center lg:text-left"
+            >
+              您的聲音，我們的行動！
+            </li>
+            <li class="text-xs md:text-base">
+              親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！
+            </li>
+          </ol>
+          <!-- inputs area -->
+          <!-- name -->
+          <ol class="col-span-full lg:col-span-2 gap-y-[5px] grid">
+            <ul class="gap-y-1 grid">
+              <li class="text-xs md:text-base">您的姓名</li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="請輸入名字..."
+                  class="w-full h-[34px] md:h-6 rounded-[6px] border border-election-sixth/25 pl-[20px] text-xs md:text-base"
+                  id="nameInput"
+                  name="nameInput"
+                />
+              </li>
+            </ul>
+            <li
+              class="text-xs md:text-sm text-election-red lg:h-[22px]"
+              id="nameHint"
+            ></li>
+          </ol>
+          <!-- phone -->
+          <ol
+            class="col-span-full lg:col-span-2 lg:col-start-3 gap-y-[5px] grid"
+          >
+            <ul class="gap-y-1 grid">
+              <li class="text-xs md:text-base">您的手機</li>
+              <li>
+                <input
+                  type="tel"
+                  placeholder="請輸入手機號碼..."
+                  class="w-full h-[34px] md:h-6 rounded-[6px] border border-election-sixth/25 pl-[20px] text-xs md:text-base"
+                  id="phoneInput"
+                  name="phoneInput"
+                />
+              </li>
+            </ul>
+            <li
+              class="text-xs md:text-sm text-election-red lg:h-[22px]"
+              id="phoneHint"
+            ></li>
+          </ol>
+          <!-- email -->
+          <ol
+            class="col-span-full lg:col-span-2 lg:col-start-5 gap-y-[5px] grid"
+          >
+            <ul class="gap-y-1 grid">
+              <li class="text-xs md:text-base">您的 Email</li>
+              <li>
+                <input
+                  type="email"
+                  placeholder="請輸入Email..."
+                  class="w-full h-[34px] md:h-6 rounded-[6px] border border-election-sixth/25 pl-[20px] text-xs md:text-base"
+                  id="emailInput"
+                  name="emailInput"
+                />
+              </li>
+            </ul>
+            <li
+              class="text-xs md:text-sm text-election-red lg:h-[22px]"
+              id="emailHint"
+            ></li>
+          </ol>
+          <!-- comments -->
+          <ol class="col-span-full gap-y-[5px] grid">
+            <ul class="gap-y-1 grid">
+              <li class="text-xs md:text-base">您的建言</li>
+              <li>
+                <textarea
+                  placeholder="有什麼想說的呢？"
+                  class="w-full h-[206px] md:h-[200px] border border-election-sixth/25 rounded-[6px] pl-[20px] text-xs md:text-base pt-1.5"
+                  id="commentInput"
+                  name="commentInput"
+                ></textarea>
+              </li>
+            </ul>
+            <li
+              class="text-xs md:text-sm text-election-red lg:h-[22px]"
+              id="commentHint"
+            ></li>
+          </ol>
+          <!-- submit button -->
+          <li class="col-span-full h-[42px] md:h-6">
+            <button
+              class="w-full h-full bg-election-second text-white font-bold text-xs md:text-base rounded-[50px]"
+              id="feedbackBtn"
+              type="submit"
+            >
+              送出
+            </button>
+          </li>
+        </ul>
+      </div>
+      <!-- 點擊按鈕彈出式視窗 -->
+      <dialog
+        class="border border-black py-4 px-2 md:px-4 w-[327px] h-[179px] md:w-[440px] md:h-[253px] overflow-hidden"
+        id="feedbackDialog"
+      >
+        <ul class="grid gap-y-[23px] md:gap-y-[65px]">
+          <ol class="grid gap-y-2">
+            <li class="flex justify-between pr-1">
+              <div class="flex items-center gap-x-1">
+                <div class="h-[20px] md:h-[26px]">
+                  <img src="public/img/label.svg" class="h-full" alt="" />
+                </div>
+                <p class="text-base md:text-l">感謝您的回饋</p>
+              </div>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                id="closeDialog"
+                class="cursor-pointer"
+              >
+                <path
+                  d="M20 1.32073L18.6792 0L10 8.67915L1.32085 0L0 1.32073L8.67921 9.99994L0 18.6791L1.32085 19.9999L10 11.3207L18.6792 19.9999L20 18.6791L11.3208 9.99994L20 1.32073Z"
+                  fill="black"
+                  fill-opacity="0.75"
+                />
+              </svg>
+            </li>
+            <li class="text-xs md:text-base">
+              我們會盡快回覆您，祝您有個愉快的一天。
+            </li>
+          </ol>
+          <li class="w-[122px] h-[34px] md:h-6 m-auto">
+            <button
+              class="bg-election-second text-white text-xs md:text-base font-bold rounded-[50px] w-full h-full"
+              type="button"
+              id="closeDialog"
+            >
+              確認
+            </button>
+          </li>
+        </ul>
+      </dialog>
+      <!-- cat svg -->
+      <ul class="container relative bg-red-300">
+        <li
+          class="hidden lg:block absolute right-[26px] [mt-1 ml-[1225px]] z-10"
+        >
+          <img src="public/img/dec_cat05.svg" alt="" />
+        </li>
+      </ul>
+    </section>
+    <!-- 貓掌特效 -->
+    <section
+      class="bg-election-third border-t border-election-sixth pt-6 h-[326px] md:h-[534px] relative z-0"
+    >
+      <div class="md:container">
+        <!-- word svg background -->
+        <div
+          class="bg-[url('/public/img/m_s9_word.svg')] lg:bg-[url('/public/img/s9_word.svg')] bg-no-repeat bg-top h-[94px] lg:h-[73px]"
+        ></div>
+        <!-- cat paws container / add "relative"-->
+        <ul
+          class="container flex items-end justify-between w-full mt-[51px] md:px-[28px]"
+        >
+          <li
+            class="w-[65px] h-[129px] md:w-[130px] md:h-[258px] lg:w-auto lg:h-auto rotate-[-3.94deg] lg:mt-4 active:animate-pawSwing lg:hover:animate-pawSwing"
+          >
+            <img src="public/img/s9_catpaw01.svg" alt="" />
+          </li>
+          <li
+            class="w-[60px] h-[136px] md:w-15 md:h-[272px] lg:w-auto lg:h-auto rotate-[5.83deg] active:animate-pawUpDown lg:hover:animate-pawUpDown"
+          >
+            <img src="public/img/s9_catpaw02.svg" alt="" />
+          </li>
+          <li
+            class="w-[52px] h-[114px] md:w-[104px] md:h-[228px] lg:w-auto lg:h-auto rotate-[9.53deg] lg:mt-7 active:animate-pawUpDown2 lg:hover:animate-pawUpDown2"
+          >
+            <img src="public/img/s9_catpaw03.svg" alt="" />
+          </li>
+          <li
+            class="w-[60px] h-[136px] md:w-15 md:h-[272px] lg:w-auto lg:h-auto rotate-[-6deg] lg:mt-3 active:animate-pawSwing2 lg:hover:animate-pawSwing2"
+          >
+            <img src="public/img/s9_catpaw04.svg" alt="" />
+          </li>
+          <li
+            class="hidden lg:block rotate-[4.88deg] lg:mt-6 hover:animate-pawUpDown3"
+          >
+            <img src="public/img/s9_catpaw05.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <!-- 遮罩 -->
+      <div
+        class="absolute bg-white lg:-bottom-15 left-0 right-0 md:h-[80px] lg:h-15 z-0"
+      ></div>
+    </section>
+    <!-- 跑馬燈 -->
+    <div class="absolute w-full overflow-hidden md:-mt-[68px] lg:mt-0">
+      <div
+        class="bg-white relative border-y border-black top-0 flex w-[4878px] animate-pawMarquee"
+      >
+        <img
+          src="public/img/s10_marquee.svg"
+          class="h-[60px] md:h-[80px] lg:h-15"
+        />
+        <img
+          src="public/img/s10_marquee.svg"
+          class="h-[60px] md:h-[80px] lg:h-15"
+        />
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-[60px] md:mt-[14px] lg:mt-[120px]">
+      <!-- 聯絡資訊 -->
+      <section
+        class="bg-election pt-5 lg:pt-[46px] pb-2.5 lg:pb-[18px] md:px-3 lg:px-0"
+      >
+        <div
+          class="container flex flex-col lg:flex-row lg:justify-between md:relative lg:static"
+        >
+          <ul class="md:flex lg:block justify-between">
+            <li><img src="public/img/s11_footer_word.svg" alt="" /></li>
+            <li class="text-base lg:text-l mt-1 flex justify-end">
+              —— 喵立翰 / Miao Li-Han
+            </li>
+          </ul>
+          <ul>
+            <ol
+              class="flex gap-x-2 my-5 lg:my-0 lg:mb-4 items-center justify-center md:justify-end lg:justify-start"
+            >
+              <li>
+                <img
+                  src="public/img/s11_icon_fb.svg"
+                  class="hover:cursor-pointer"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="public/img/s11_icon_ig.svg"
+                  class="hover:cursor-pointer"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="public/img/s11_icon_X.svg"
+                  class="hover:cursor-pointer"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="public/img/s11_icon_youtube.svg"
+                  class="hover:cursor-pointer"
+                  alt=""
+                />
+              </li>
+            </ol>
+            <ol
+              class="flex flex-col gap-y-1 md:absolute lg:static md:-bottom-[19px]"
+            >
+              <li class="text-xs md:text-base font-normal">
+                <span class="font-bold mr-1">辦公室地址</span
+                >喵星區，毛茸茸大道88號，喵喵大樓3樓
+              </li>
+              <li class="text-xs md:text-base">
+                <span class="font-bold mr-1">電話</span>(02) 888-5678
+              </li>
+              <li class="text-xs md:text-base">
+                <span class="font-bold mr-1">電子郵件</span
+                >meowoffice@linmeow.tw
+              </li>
+            </ol>
+          </ul>
+        </div>
+        <ul class="container">
+          <li class="border-b border-black mt-4 mb-2"></li>
+          <li class="text-[10px] md:text-xs lg:text-base">
+            © 2023 喵立翰（Miao Li-Han）版權所有。
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js
+    "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="public/js/all.js"></script>
+  </body>
 </html>
