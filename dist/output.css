@@ -1502,20 +1502,20 @@ a:hover {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/public\/img\/1920px_pic\/s7_bg\.svg\'\)\] {
-  background-image: url("/public/img/1920px_pic/s7_bg.svg");
-}
-
-.bg-\[url\(\'\/public\/img\/375px_pic\/m_s9_word\.svg\'\)\] {
-  background-image: url("/public/img/375px_pic/m_s9_word.svg");
-}
-
 .bg-\[url\(\'public\/img\/1920px_pic\/s7_bg\.svg\'\)\] {
-  background-image: url("/public/img/1920px_pic/s7_bg.svg");
+  background-image: url("../public/img/1920px_pic/s7_bg.svg");
 }
 
 .bg-\[url\(\'public\/img\/375px_pic\/m_s9_word\.svg\'\)\] {
-  background-image: url("/public/img/375px_pic/m_s9_word.svg");
+  background-image: url("../public/img/375px_pic/m_s9_word.svg");
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/1920px_pic\/s7_bg\.svg\'\)\] {
+  background-image: url("../public/img/1920px_pic/s7_bg.svg");
+}
+
+.bg-\[url\(\'\.\.\/public\/img\/375px_pic\/m_s9_word\.svg\'\)\] {
+  background-image: url("../public/img/375px_pic/m_s9_word.svg");
 }
 
 .bg-top {
@@ -2754,12 +2754,12 @@ a:hover {
     border-right-width: 0px;
   }
 
-  .lg\:bg-\[url\(\'\/public\/img\/1920px_pic\/s9_word\.svg\'\)\] {
-    background-image: url("/public/img/1920px_pic/s9_word.svg");
+  .lg\:bg-\[url\(\'public\/img\/1920px_pic\/s9_word\.svg\'\)\] {
+    background-image: url("../public/img/1920px_pic/s9_word.svg");
   }
 
-  .lg\:bg-\[url\(\'public\/img\/1920px_pic\/s9_word\.svg\'\)\] {
-    background-image: url("public/img/1920px_pic/s9_word.svg");
+  .lg\:bg-\[url\(\'\.\.\/public\/img\/1920px_pic\/s9_word\.svg\'\)\] {
+    background-image: url("../public/img/1920px_pic/s9_word.svg");
   }
 
   .lg\:\!px-0 {
