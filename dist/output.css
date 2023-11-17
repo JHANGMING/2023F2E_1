@@ -869,11 +869,6 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .-mt-1{
   margin-top: -8px;
 }
@@ -1497,6 +1492,14 @@ a:hover {
 
 .bg-\[url\(\'\/public\/img\/375px_pic\/m_s9_word\.svg\'\)\]{
   background-image: url('/public/img/375px_pic/m_s9_word.svg');
+}
+
+.bg-\[url\(\'public\/img\/1920px_pic\/s7_bg\.svg\'\)\]{
+  background-image: url('public/img/1920px_pic/s7_bg.svg');
+}
+
+.bg-\[url\(\'public\/img\/375px_pic\/m_s9_word\.svg\'\)\]{
+  background-image: url('public/img/375px_pic/m_s9_word.svg');
 }
 
 .bg-top{
@@ -2724,6 +2727,15 @@ a:hover {
     background-image: url('/public/img/1920px_pic/s9_word.svg');
   }
 
+  .lg\:bg-\[url\(\'public\/img\/1920px_pic\/s9_word\.svg\'\)\]{
+    background-image: url('public/img/1920px_pic/s9_word.svg');
+  }
+
+  .lg\:\!px-0{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -2762,11 +2774,6 @@ a:hover {
   .lg\:py-\[95px\]{
     padding-top: 95px;
     padding-bottom: 95px;
-  }
-
-  .lg\:\!px-0{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
   }
 
   .lg\:pb-12{
